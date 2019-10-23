@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d524b105-f8cd-4b42-96ee-82a1a1537bb5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/datastruct.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/Reverse.java" afterPath="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/ReversePrint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/wp/org/App.java" afterPath="$PROJECT_DIR$/src/main/java/wp/org/App.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,23 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ArrayManipulation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/arrays/ArrayManipulation.java">
+      <file leaf-file-name="InsertSortApp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/insert_sort/InsertSortApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="6" column="110" lean-forward="false" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reverse.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/Reverse.java">
+      <file leaf-file-name="InsertSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/insert_sort/InsertSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="69" selection-end-column="9" />
+            <state relative-caret-position="146">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -74,6 +69,26 @@
         <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/InsertNodeAtPosition.java" />
         <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/DeleteNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/Reverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/ReverseNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/CompareLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/MergeListsAscendingOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/GetNodeFromTail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/RemoveDuplicates.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/MergeTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/FindMergeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/InsertNodeToSortedDoublyList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/ReverseDoublyList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/tree/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/linkedlist/CycleDetection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/tree/TestTreeApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/arrays/DynamicArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/sort/bubble_sort/BubbleSortApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/sort/bubble_sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/sort/select_sort/SelectSortApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/sort/select_sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/sort/insert_sort/InsertSortApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/wp/org/sort/insert_sort/InsertSort.java" />
       </list>
     </option>
   </component>
@@ -87,8 +102,9 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="173" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="813" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -122,10 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,12 +188,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wp" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataStructure-And-Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wp" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="insert_sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,10 +219,14 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="wp.org.linkedlist" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="wp.org.sort.select_sort" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,15 +241,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteNode">
-    <configuration name="BracketsMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.InsertSortApp">
+    <configuration name="BubbleSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="wp.org.stack.*" />
+          <option name="PATTERN" value="wp.org.sort.bubble_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="wp.org.stack.BracketsMatch" />
+      <option name="MAIN_CLASS_NAME" value="wp.org.sort.bubble_sort.BubbleSortApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -230,14 +261,14 @@
       <module name="datastruct" />
       <envs />
     </configuration>
-    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="wp.org.linkedlist.*" />
+          <option name="PATTERN" value="wp.org.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="wp.org.linkedlist.DeleteNode" />
+      <option name="MAIN_CLASS_NAME" value="wp.org.arrays.DynamicArray" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -249,14 +280,14 @@
       <module name="datastruct" />
       <envs />
     </configuration>
-    <configuration name="EqualHeightStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="wp.org.stack.*" />
+          <option name="PATTERN" value="wp.org.sort.insert_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="wp.org.stack.EqualHeightStacks" />
+      <option name="MAIN_CLASS_NAME" value="wp.org.sort.insert_sort.InsertSortApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -268,14 +299,14 @@
       <module name="datastruct" />
       <envs />
     </configuration>
-    <configuration name="InsertNodeAtHead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="wp.org.linkedlist.*" />
+          <option name="PATTERN" value="wp.org.sort.select_sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="wp.org.linkedlist.InsertNodeAtHead" />
+      <option name="MAIN_CLASS_NAME" value="wp.org.sort.select_sort.SelectSortApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -287,14 +318,14 @@
       <module name="datastruct" />
       <envs />
     </configuration>
-    <configuration name="InsertNodeAtPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="wp.org.linkedlist.*" />
+          <option name="PATTERN" value="wp.org.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="wp.org.linkedlist.InsertNodeAtPosition" />
+      <option name="MAIN_CLASS_NAME" value="wp.org.tree.TestTreeApp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -388,19 +419,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.InsertNodeAtHead" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BracketsMatch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EqualHeightStacks" />
-      <item index="3" class="java.lang.String" itemvalue="Application.InsertNodeAtPosition" />
-      <item index="4" class="java.lang.String" itemvalue="Application.DeleteNode" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestTreeApp" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DynamicArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BubbleSortApp" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SelectSortApp" />
+      <item index="4" class="java.lang.String" itemvalue="Application.InsertSortApp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.DeleteNode" />
-        <item index="1" class="java.lang.String" itemvalue="Application.InsertNodeAtPosition" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EqualHeightStacks" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BracketsMatch" />
-        <item index="4" class="java.lang.String" itemvalue="Application.InsertNodeAtHead" />
+        <item index="0" class="java.lang.String" itemvalue="Application.InsertSortApp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SelectSortApp" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BubbleSortApp" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DynamicArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestTreeApp" />
       </list>
     </recent_temporary>
   </component>
@@ -419,15 +450,18 @@
       <workItem from="1566711041386" duration="4442000" />
       <workItem from="1566957800435" duration="2513000" />
       <workItem from="1566965762874" duration="22905000" />
-      <workItem from="1568766881811" duration="12602000" />
+      <workItem from="1568766881811" duration="19834000" />
+      <workItem from="1569153773308" duration="24831000" />
+      <workItem from="1570668653296" duration="208000" />
+      <workItem from="1571640608485" duration="7581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52142000" />
+    <option name="totallyTimeSpent" value="91994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -438,19 +472,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3675937" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17412333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18884121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -480,9 +514,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17412333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3675937" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18884121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -508,23 +542,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/arrays/MatchStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -539,10 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25498">
           <caret line="1214" column="15" lean-forward="false" selection-start-line="1214" selection-start-column="15" selection-end-line="1214" selection-end-column="15" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="false" />
-            <element signature="e#46458#46459#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,10 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25498">
           <caret line="1214" column="15" lean-forward="false" selection-start-line="1214" selection-start-column="15" selection-end-line="1214" selection-end-column="15" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="false" />
-            <element signature="e#46458#46459#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,10 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26708">
           <caret line="1214" column="15" lean-forward="false" selection-start-line="1214" selection-start-column="15" selection-end-line="1214" selection-end-column="15" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="false" />
-            <element signature="e#46458#46459#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -596,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,9 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="656" column="0" lean-forward="false" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="692">
           <caret line="271" column="6" lean-forward="false" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,20 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="736">
           <caret line="1214" column="15" lean-forward="false" selection-start-line="1214" selection-start-column="15" selection-end-line="1214" selection-end-column="15" />
-          <folding>
-            <element signature="e#46394#46395#0" expanded="false" />
-            <element signature="e#46458#46459#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/arrays/MatchStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,27 +698,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/InsertNodeAtHead.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-614">
           <caret line="29" column="70" lean-forward="false" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1146">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="93" column="31" lean-forward="true" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -771,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
           <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,26 +741,180 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="79" column="17" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="79" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/ReversePrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/ReverseNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="72" column="28" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/CompareLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="112" column="37" lean-forward="false" selection-start-line="112" selection-start-column="37" selection-end-line="112" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/MergeListsAscendingOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="39" column="49" lean-forward="true" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/GetNodeFromTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="97" column="37" lean-forward="false" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="82" column="40" lean-forward="true" selection-start-line="79" selection-start-column="20" selection-end-line="82" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/FindMergeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="139" column="37" lean-forward="false" selection-start-line="139" selection-start-column="37" selection-end-line="139" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/InsertNodeToSortedDoublyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="91" column="12" lean-forward="false" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/ReverseDoublyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/CycleDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="false" />
+            <element signature="e#210#211#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/tree/TestTreeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/arrays/MatchStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="26" column="66" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/arrays/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#136#137#0" expanded="false" />
+            <element signature="e#163#164#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#218#219#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/arrays/ArrayManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
+        <state relative-caret-position="22">
           <caret line="6" column="110" lean-forward="false" selection-start-line="6" selection-start-column="110" selection-end-line="6" selection-end-column="110" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/linkedlist/Reverse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/bubble_sort/BubbleSortApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="62" column="8" lean-forward="true" selection-start-line="62" selection-start-column="8" selection-end-line="69" selection-end-column="9" />
+        <state relative-caret-position="241">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/bubble_sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/select_sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/select_sort/SelectSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/insert_sort/InsertSortApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/wp/org/sort/insert_sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -1,8 +1,9 @@
 package wp.org.linkedlist;
 
+import java.io.*;
 import java.util.*;
 
-public class Reverse {
+public class CycleDetection {
 
     static class SinglyLinkedListNode {
         public int data;
@@ -36,19 +37,19 @@ public class Reverse {
         }
     }
 
-    public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep) {
+    public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
         while (node != null) {
-            System.out.print(node.data);
+            bufferedWriter.write(String.valueOf(node.data));
 
             node = node.next;
 
             if (node != null) {
-                System.out.print(sep);
+                bufferedWriter.write(sep);
             }
         }
     }
 
-    // Complete the reversePrint function below.
+    // Complete the hasCycle function below.
 
     /*
      * For your reference:
@@ -59,24 +60,30 @@ public class Reverse {
      * }
      *
      */
-    static void reversePrint(SinglyLinkedListNode head) {
-        LinkedList<Integer> stack = new LinkedList<>();
+    static boolean hasCycle(SinglyLinkedListNode head) {
         while (null != head){
-            stack.push(head.data);
-            head = head.next;
+            if(head.data == -2){
+                return true;
+            }else {
+                head.data = -2;
+                head = head.next;
+            }
         }
-        while (stack.size() != 0){
-            System.out.println(stack.pop());
-        }
+        return false;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+//        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+
         int tests = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
         for (int testsItr = 0; testsItr < tests; testsItr++) {
+            int index = scanner.nextInt();
+            scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+
             SinglyLinkedList llist = new SinglyLinkedList();
 
             int llistCount = scanner.nextInt();
@@ -89,8 +96,28 @@ public class Reverse {
                 llist.insertNode(llistItem);
             }
 
-            reversePrint(llist.head);
+            SinglyLinkedListNode extra = new SinglyLinkedListNode(-1);
+            SinglyLinkedListNode temp = llist.head;
+
+            for (int i = 0; i < llistCount; i++) {
+                if (i == index) {
+                    extra = temp;
+                }
+
+                if (i != llistCount-1) {
+                    temp = temp.next;
+                }
+            }
+
+            temp.next = extra;
+
+            boolean result = hasCycle(llist.head);
+            System.out.println(result);
+//            bufferedWriter.write(String.valueOf(result ? 1 : 0));
+//            bufferedWriter.newLine();
         }
+
+//        bufferedWriter.close();
 
         scanner.close();
     }
